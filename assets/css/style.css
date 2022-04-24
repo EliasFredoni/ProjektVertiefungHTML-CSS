@@ -113,6 +113,7 @@ section {
 body main p {
     font-weight: lighter;
     font-size: 2vh;
+    padding-top: 15%;
 }
 
 /* ==========================ARTICLE=============================*/
@@ -122,7 +123,6 @@ article {}
 article p {
     display: block;
     padding-left: 20px;
-    background-color: green;
 }
 
 article p:nth-child(1) {
@@ -152,7 +152,6 @@ h2 {
     justify-content: space-around;
     padding-bottom: 2%;
     padding-top: 5%;
-    background-color: goldenrod;
 }
 
 section>h3 {
@@ -175,7 +174,6 @@ main>h3 {
     text-align: center;
     font-size: 13px;
     font-weight: lighter;
-    background-color: aquamarine;
 }
 
 /* ======================CLASSES===========================================*/
@@ -225,14 +223,18 @@ main>h3 {
 
 .number {
     color: #dddddd;
+    font-size: 40px;
+
 }
 
 .collage {
+    display: flex;
     background-image: url("../img/images.jpg");
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 160vh;
+
 }
 
 /*************FOOTER*******************/
@@ -242,6 +244,7 @@ form {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 50px;
+    height: 160vh;
 }
 
 form>input:nth-child(1) {
