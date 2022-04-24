@@ -1,0 +1,274 @@
+/* Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000
+font-family: 'Roboto', sans-serif;
+
+<header>
+        <div>
+            <img src="assets/img/logo.svg" alt="elephant-logo">
+            <div>
+                <h1>TheDesignProject</h1>
+                <h2>by a WebDesigner</h2>
+            </div>
+        </div>
+[12:44]
+header div {
+    display: flex;
+}
+
+header div img {
+    width: 35px;
+    margin: 3vh 0.5vh 0 3vh;
+}
+
+header div div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    width: 150px;
+    margin-top: 3vh;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* =========SPAN===============*/
+
+span {
+    font-weight: bold;
+}
+
+/* ======================HEADER===========================================*/
+
+header {
+    background-image: url('../img/ilustracion1.png');
+    background-position: right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+header nav {
+    display: flex;
+    padding-left: 2%;
+    padding-top: 3%;
+    position: fixed;
+}
+
+header nav ul li:nth-child(1) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+header nav ul li:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+header nav ul {
+    padding-left: 5%;
+    list-style: none;
+}
+
+header>h1 {
+    font-size: 35px;
+    padding-right: 65%;
+    padding-top: 30%;
+    padding-left: 7%;
+}
+
+header>h3 {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 65%;
+}
+
+h4 {
+    color: red;
+    font-size: 10px;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 30%;
+}
+
+/* =======================SECTION=========================================*/
+
+section {
+    margin-top: 40%;
+}
+
+body main p {
+    font-weight: lighter;
+    font-size: 2vh;
+}
+
+/* ==========================ARTICLE=============================*/
+
+article {}
+
+article p {
+    display: block;
+    padding-left: 20px;
+    background-color: green;
+}
+
+article p:nth-child(1) {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+article p:nth-child(2) {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+article p:nth-child(3) {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+article p:nth-child(4) {
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+h2 {
+    font-size: 4vh;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    background-color: goldenrod;
+}
+
+section>h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 2%;
+    padding-left: 70px;
+    padding-right: 45%;
+}
+
+main>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+main>h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    background-color: aquamarine;
+}
+
+/* ======================CLASSES===========================================*/
+
+.idea {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.one {
+    display: flex;
+    height: 45vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.two {
+    display: flex;
+    height: 45vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.three {
+    display: flex;
+    height: 45vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.four {
+    display: flex;
+    height: 45vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.number {
+    color: #dddddd;
+}
+
+.collage {
+    background-image: url("../img/images.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160vh;
+}
+
+/*************FOOTER*******************/
+
+form {
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+form>input:nth-child(1) {
+    padding-right: 35%;
+    padding-left: 35%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
+    text-align: center;
+    box-shadow: 20px 30px 70px lightgrey;
+    border-radius: 4%;
+    border-style: none;
+}
+
+form>input:nth-child(2) {
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #ff3571;
+    border-radius: 4%;
+    color: #fff;
+    border-style: none;
+}
+
+footer>p {
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
